@@ -16,11 +16,11 @@ public class Countingvowels {
 
         for (int i = 0; i < sentence.length(); i++) {
             vowel = sentence.charAt(i);
-            if (vowel == 'a' || vowel == 'e' || vowel == 'i' || vowel == 'o') totalvowel++;
+            if (vowel == 'a' || vowel == 'e' || vowel == 'i' || vowel == 'o'|| vowel == 'u') totalvowel++;
 
         }
 
-        System.out.println("The number of vowels in this text is " + totalvowel);
+        System.out.println("The number of vowel in this text is " + totalvowel);
 
     }
 }
